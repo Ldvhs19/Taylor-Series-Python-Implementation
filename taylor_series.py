@@ -8,7 +8,7 @@ import math
 def taylor_series(fun,deri,doubleder,triple,y):
     value1 = fun(y)
    #this paramter is used to input the value of variable in the taylor series equation
-    a=float(input("Enter the value of a: "))
+    a=float(input("Enter the value of x: "))
     value2 = deri(y)*a/math.factorial(1)
     value3 = doubleder(y)*a**2/math.factorial(2)
     value4 = triple(y)*a**3/math.factorial(3)
